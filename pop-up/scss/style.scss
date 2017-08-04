@@ -1,0 +1,50 @@
+body{background:url('../images/simu.jpg'); background-size: cover;}
+.pop-up-image
+{
+  position: fixed;
+  background: rgba(45, 45, 45, 0.69);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  .content-pop-up
+  {
+  position: relative;
+  width: 600px;
+  height: 522px;
+  margin: 99px auto;
+  background: url(../images/pop-up-save.jpg);
+  border-radius: 0px;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid #8bb965;
+
+    .salir
+    {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+      border-radius: 50%;
+      padding: 10px;
+      margin: 10px;
+      top: 0;
+      right: 0;
+      background-color: #8bb965;
+      transition: .3s ease-in-out;
+      &:hover{background-color: rgb(54, 54, 54);}
+
+      svg{
+        width: 14px;
+        padding: 3px;
+        path{fill:white;}
+        }
+
+    }
+
+
+
+  }
+}
